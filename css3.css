@@ -1,0 +1,201 @@
+  /* タブレットの画面サイズ */
+  @media (min-width: 481px) and (max-width: 768px){
+    .section {
+      margin-top: 40px;
+      padding: 15px;
+    }
+
+    /* page1*/
+    .back {
+        position: absolute;
+        width: 105%;
+        height: 60%;
+        top: -5%;
+        left: -3%;
+        background-size: cover;
+        
+      }
+      .logo {
+        position: absolute;
+        width: 40%;
+        top: 5%;
+        left: 5%;
+      }
+      .back2 {
+        position: absolute;
+        width: 103%;
+        height: 30%;
+        top: 35%;
+        left: 0; 
+        z-index: 10;
+      }
+      .charaA{
+        z-index: 10;
+        position: absolute;
+        width: 35%;
+        top: 8%;
+        right: 8%;
+          transform: translateY(10%);
+          opacity: 0; /* 初期状態は非表示 */
+          bottom: -50px; /* 下に50px移動 */
+        animation: fadein 3s ease forwards; /* 2秒かけてフェードイン */ 
+      }
+      @keyframes fadein {
+        from {
+          opacity: 0;
+          bottom: -50px;
+        }
+        to {
+          opacity: 1;
+          bottom: 0;
+        }
+      }
+      
+
+      .message1{
+        position: absolute;
+        top: 38%;
+        left: 23%;
+        font-size: 20px;
+        z-index: 20;
+      }
+      .message2{
+        position: absolute;
+        width: 70%;
+        top: 70%;
+        left: 16%;
+      }
+      
+      .cloud1{
+        position: relative;
+        width: 35%;
+        top: 48%;
+        left: 27%;
+      }
+      .cloud2{
+        position: relative;
+        width: 20%;
+        top: 18%;
+        right: 15%;
+      }
+      .cloud3{
+        position: absolute;
+        width: 50%;
+        right: -125%;
+      }
+        .idou{
+          z-index: -10;
+          position: absolute;
+        top: 12%;
+        animation-name:idou;
+        animation-duration:7s;
+        animation-timing-function:ease;
+        animation-iteration-count:infinite;
+        animation-direction:alternate;
+        } 
+        @keyframes idou{
+        100%{transform:translate(20%,0px);}
+        } 
+
+        
+      .icon1 {
+        position: absolute;
+        top: 85%;
+        width: 30%;
+      }
+      .icon2{
+        position: absolute;
+        top: 85%;
+        width: 30%;
+        left: 35%;
+      }
+      .icon3{
+        position: absolute;
+        top: 85%;
+        width: 30%;
+        left: 68%;
+      }
+      .icon4{
+        position: absolute;
+        top: 110%;
+        width: 30%;
+      }
+      .icon5{
+        position: absolute;
+        top: 110%;
+        width: 30%;
+        left: 35%;
+      }
+      .icon6{
+        position: absolute;
+        top: 110%;
+        width: 30%;
+        left: 68%;
+      }
+
+      .message3{
+        position: absolute;
+        top: 140%;
+        left: 7%;
+        font-size: 16px;
+      }
+
+      /* page2 */
+      .back3 {
+        position: absolute;
+        width: 105%;
+        height: 75%;
+        top: 60%;
+        left: -3%;
+        background-size: cover;
+        
+      }
+      .chara1{
+        position: absolute;
+        width: 50%;
+        top: 16%;
+        left: 23%;
+      }
+
+      .art1{
+        position: absolute;
+        width: 30%;
+        z-index: 10;
+        top: 46%;
+        right: 5%;
+        border: 1px solid #ccc; /* 枠線の太さと色 */
+        padding: 5px; /* 画像と枠線の間の余白 */
+        display: inline-block; /* 画像を中央揃えするために必要 */
+      }
+      
+      .next2{
+        position: absolute;
+        width: 10%;
+        top: 33%;
+        right: 5%;
+      }
+      .page2coment{
+        position: absolute;
+        top: 44%;
+        left: 8%;
+        font-size: 20px;
+      }
+      .name1{
+        font-size: 20px;
+      }
+      
+      .next3{
+        position: absolute;
+        width: 10%;
+        top: 33%;
+        right: 5%;
+  }
+  .return1{
+    position: absolute;
+    width: 10%;
+    top: 33%;
+    left: 5%;
+}
+
+
+}
