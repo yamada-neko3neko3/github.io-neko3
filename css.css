@@ -177,6 +177,7 @@
         right: 5%;
       }
       .page2coment{
+        z-index: 10;
         position: absolute;
         top: 54%;
         left: 12%;
