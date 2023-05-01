@@ -66,7 +66,7 @@
       .message2{
         position: absolute;
         width: 70%;
-        top: 125%;
+        top: 129%;
         left: 16%;
       }
       
@@ -256,7 +256,7 @@
   width: 60%;
   z-index: 10;
   position: absolute;
-  top: 50%;
+  top: 48%;
   left: 20%;
  }
  .banner2{
@@ -270,14 +270,14 @@
   width: 60%;
   z-index: 10;
   position: absolute;
-  top: 80%;
+  top: 83%;
   right: 20%;
  }
  .banner4{
   width: 60%;
   z-index: 10;
   position: absolute;
-  top: 95%;
+  top: 100%;
   right: 20%;
  }
 
