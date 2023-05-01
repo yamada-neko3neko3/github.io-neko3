@@ -11,9 +11,9 @@
     /* page1*/
     .back {
         position: absolute;
-        width: 105%;
-        height: 60%;
-        top: -5%;
+        width: 103%;
+        height: 35%;
+        top: 5%;
         left: -3%;
         background-size: cover;
         
@@ -21,22 +21,24 @@
       .logo {
         position: absolute;
         width: 40%;
-        top: 5%;
+        top: 0%;
         left: 5%;
       }
       .back2 {
         position: absolute;
         width: 100%;
-        top: 27%;
+        top: 30%;
+        height: 10%;
         left: 0; 
         z-index: 10;
+        border-bottom: solid 3px green;
       }
       .charaA{
         z-index: 10;
         position: absolute;
         width: 35%;
         top: 8%;
-        right: 8%;
+        right: 5%;
           transform: translateY(10%);
           opacity: 0; /* 初期状態は非表示 */
           bottom: -50px; /* 下に50px移動 */
@@ -56,15 +58,15 @@
 
       .message1{
         position: absolute;
-        top: 34%;
-        left: 10%;
-        font-size: 14px;
+        top: 8%;
+        left: 8%;
+        font-size: 10px;
         z-index: 20;
       }
       .message2{
         position: absolute;
         width: 70%;
-        top: 73%;
+        top: 125%;
         left: 16%;
       }
       
@@ -102,47 +104,89 @@
         
       .icon1 {
         position: absolute;
-        top: 85%;
+        top: 145%;
         width: 30%;
       }
       .icon2{
         position: absolute;
-        top: 85%;
+        top: 145%;
         width: 30%;
         left: 35%;
       }
       .icon3{
         position: absolute;
-        top: 85%;
+        top: 145%;
         width: 30%;
         left: 68%;
       }
       .icon4{
         position: absolute;
-        top: 105%;
+        top: 165%;
         width: 30%;
       }
       .icon5{
         position: absolute;
-        top: 105%;
+        top: 165%;
         width: 30%;
         left: 35%;
       }
       .icon6{
         position: absolute;
-        top: 105%;
+        top: 165%;
         width: 30%;
         left: 68%;
       }
 
       .message3{
         position: absolute;
-        top: 125%;
+        top: 195%;
         left: 7%;
         font-size: 12px;
       }
 
-      /* page2 */
+      .icon1b {
+        position: absolute;
+        top: 85%;
+        width: 30%;
+      }
+      .icon2b{
+        position: absolute;
+        top: 85%;
+        width: 30%;
+        left: 35%;
+      }
+      .icon3b{
+        position: absolute;
+        top: 85%;
+        width: 30%;
+        left: 68%;
+      }
+      .icon4b{
+        position: absolute;
+        top: 105%;
+        width: 30%;
+      }
+      .icon5b{
+        position: absolute;
+        top: 105%;
+        width: 30%;
+        left: 35%;
+      }
+      .icon6b{
+        position: absolute;
+        top: 105%;
+        width: 30%;
+        left: 68%;
+      }
+
+      .message3b{
+        position: absolute;
+        top: 135%;
+        left: 7%;
+        font-size: 12px;
+      }
+
+/* page2 */
       .back3 {
         position: absolute;
         width: 105%;
@@ -177,7 +221,6 @@
         right: 5%;
       }
       .page2coment{
-        z-index: 10;
         position: absolute;
         top: 54%;
         left: 12%;
@@ -200,5 +243,42 @@
     left: 5%;
 }
 
+
+/* banner1 */
+.renga{
+  width:  102%;
+  position: absolute;
+  top: 40%;
+  left: -2%;
+  border-bottom:solid 3px brown; 
+}
+ .banner1{
+  width: 60%;
+  z-index: 10;
+  position: absolute;
+  top: 50%;
+  left: 20%;
+ }
+ .banner2{
+  width: 60%;
+  z-index: 10;
+  position: absolute;
+  top: 65%;
+  left: 20%;
+ }
+ .banner3{
+  width: 60%;
+  z-index: 10;
+  position: absolute;
+  top: 80%;
+  right: 20%;
+ }
+ .banner4{
+  width: 60%;
+  z-index: 10;
+  position: absolute;
+  top: 95%;
+  right: 20%;
+ }
 
 }
