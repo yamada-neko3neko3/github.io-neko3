@@ -9,6 +9,8 @@
     }
 
     /* page1*/
+    
+
     .back {
         position: absolute;
         width: 103%;
@@ -20,7 +22,7 @@
       }
       .logo {
         position: absolute;
-        width: 40%;
+        width: 35%;
         top: 0%;
         left: 5%;
       }
@@ -62,11 +64,16 @@
         left: 8%;
         font-size: 10px;
         z-index: 20;
+        color: white;
+  text-shadow:1px 1px 0 #000000, -1px -1px 0 #000000,
+              -1px 1px 0 #040404, 1px -1px 0 #000000,
+              0px 1px 0 #000000,  0-1px 0 #000000,
+              -1px 0 0 #000000, 1px 0 0 #000000;
       }
       .message2{
         position: absolute;
         width: 70%;
-        top: 129%;
+        top: 134%;
         left: 16%;
       }
       
@@ -281,5 +288,128 @@
   top: 100%;
   right: 20%;
  }
+
+/* index2 */
+.charaB{
+  z-index: 10;
+  position: absolute;
+  width: 40%;
+  top: 18%;
+  right: 5%;
+    transform: translateY(10%);
+    opacity: 0; /* 初期状態は非表示 */
+    bottom: -50px; /* 下に50px移動 */
+  animation: fadein 3s ease forwards; /* 2秒かけてフェードイン */ 
+}
+@keyframes fadein {
+  from {
+    opacity: 0;
+    bottom: -50px;
+  }
+  to {
+    opacity: 1;
+    bottom: 0;
+  }
+}
+
+.message4{
+  position: absolute;
+  top: 14%;
+  left: 18%;
+  font-size: 12px;
+  z-index: 20;
+}
+.fukidashi{
+  position: absolute;
+  top: 10%;
+  left: 12%;
+  width: 65%;
+}
+
+.back4{
+  width: 102%;
+  position: absolute;
+  top: 40%;
+  left: -2%;
+}
+.back5{
+  width: 102%;
+  position: absolute;
+  top: 70%;
+  left: -2%;
+}
+.back6{
+  width: 102%;
+  position: absolute;
+  top: 100%;
+  left: -2%;
+}
+.back7{
+  width: 102%;
+  position: absolute;
+  top: 115%;
+  left: -2%;
+  border-bottom: solid 3px black;
+}
+
+.art2{
+  position: absolute;
+  width: 40%;
+  top: 50%;
+  left: 5%;
+}
+.art3{
+  position: absolute;
+  width: 40%;
+  top: 50%;
+  right: 5%;
+}
+.art4{
+  position: absolute;
+  width: 40%;
+  top: 70%;
+  left: 5%;
+}
+.art5{
+  position: absolute;
+  width: 40%;
+  top: 70%;
+  right: 5%;
+}
+.art6{
+  position: absolute;
+  width: 40%;
+  top: 90%;
+  left: 5%;
+}
+.art7{
+  position: absolute;
+  width: 40%;
+  top: 90%;
+  right: 5%;
+}
+.art8{
+  position: absolute;
+  width: 40%;
+  top: 110%;
+  left: 5%;
+}
+.art9{
+  position: absolute;
+  width: 40%;
+  top: 110%;
+  right: 5%;
+}
+.art10{
+  position: absolute;
+  width: 40%;
+  top: 130%;
+  left: 5%;
+}
+.message3b{
+  position: absolute;
+  top: 160%;
+  font-size: 16px;
+}
 
 }
