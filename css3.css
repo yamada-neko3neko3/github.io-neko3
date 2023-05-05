@@ -1,201 +1,483 @@
   /* タブレットの画面サイズ */
   @media (min-width: 481px) and (max-width: 768px){
+    .container {
+      width: 80%;
+    }
     .section {
-      margin-top: 40px;
-      padding: 15px;
+      margin-top: 50px;
+      padding: 20px;
     }
 
+ 
+
     /* page1*/
+    .instagram{
+      width: 10%;
+      position: absolute;
+      top: 1%;
+      right: 3%;
+    }
+
     .back {
-        position: absolute;
-        width: 105%;
-        height: 60%;
-        top: -5%;
-        left: -3%;
-        background-size: cover;
-        
-      }
-      .logo {
-        position: absolute;
-        width: 40%;
-        top: 5%;
-        left: 5%;
-      }
-      .back2 {
-        position: absolute;
-        width: 103%;
-        height: 30%;
-        top: 35%;
-        left: 0; 
-        z-index: 10;
-      }
-      .charaA{
-        z-index: 10;
-        position: absolute;
-        width: 35%;
-        top: 8%;
-        right: 8%;
-          transform: translateY(10%);
-          opacity: 0; /* 初期状態は非表示 */
-          bottom: -50px; /* 下に50px移動 */
-        animation: fadein 3s ease forwards; /* 2秒かけてフェードイン */ 
-      }
-      @keyframes fadein {
-        from {
-          opacity: 0;
-          bottom: -50px;
-        }
-        to {
-          opacity: 1;
-          bottom: 0;
-        }
-      }
+      position: absolute;
+      width: 103%;
+      height: 45%;
+      top: 10%;
+      left: -3%;
+      background-size: cover;
       
+    }
+    .logo {
+      position: absolute;
+      width: 35%;
+      top: 2%;
+      left: 5%;
+    }
+    .back2 {
+      position: absolute;
+      width: 100%;
+      top: 50%;
+      height: 10%;
+      left: 0; 
+      z-index: 10;
+      border-bottom: solid 3px green;
+    }
+    .charaA{
+      z-index: 10;
+      position: absolute;
+      width: 35%;
+      top: 10%;
+      right: 5%;
+        transform: translateY(10%);
+        opacity: 0; /* 初期状態は非表示 */
+        bottom: -50px; /* 下に50px移動 */
+      animation: fadein 3s ease forwards; /* 2秒かけてフェードイン */ 
+    }
+    @keyframes fadein {
+      from {
+        opacity: 0;
+        bottom: -50px;
+      }
+      to {
+        opacity: 1;
+        bottom: 0;
+      }
+    }
+    
 
-      .message1{
+    .message1{
+      position: absolute;
+      top: 20%;
+      left: 12%;
+      font-size: 20px;
+      z-index: 20;
+      color: white;
+text-shadow:1px 1px 0 #000000, -1px -1px 0 #000000,
+            -1px 1px 0 #040404, 1px -1px 0 #000000,
+            0px 1px 0 #000000,  0-1px 0 #000000,
+            -1px 0 0 #000000, 1px 0 0 #000000;
+    }
+    .message2{
+      position: absolute;
+      width: 90%;
+      top: 184%;
+      left: 6%;
+    }
+    
+    .cloud1{
+      position: relative;
+      width: 35%;
+      top: 38%;
+      left: 7%;
+    }
+    .cloud2{
+      position: relative;
+      width: 20%;
+      top: 18%;
+      right: -5%;
+    }
+    .cloud3{
+      position: absolute;
+      width: 50%;
+      right: -15%;
+    }
+      .idou{
+        z-index: -10;
         position: absolute;
-        top: 38%;
-        left: 23%;
-        font-size: 20px;
-        z-index: 20;
-      }
-      .message2{
-        position: absolute;
-        width: 70%;
-        top: 70%;
-        left: 16%;
-      }
+      top: 5%;
+      animation-name:idou;
+      animation-duration:7s;
+      animation-timing-function:ease;
+      animation-iteration-count:infinite;
+      animation-direction:alternate;
+      } 
+      @keyframes idou{
+      100%{transform:translate(20%,0px);}
+      } 
+
       
-      .cloud1{
-        position: relative;
-        width: 35%;
-        top: 48%;
-        left: 27%;
-      }
-      .cloud2{
-        position: relative;
-        width: 20%;
-        top: 18%;
-        right: 15%;
-      }
-      .cloud3{
-        position: absolute;
-        width: 50%;
-        right: -125%;
-      }
-        .idou{
-          z-index: -10;
-          position: absolute;
-        top: 12%;
-        animation-name:idou;
-        animation-duration:7s;
-        animation-timing-function:ease;
-        animation-iteration-count:infinite;
-        animation-direction:alternate;
-        } 
-        @keyframes idou{
-        100%{transform:translate(20%,0px);}
-        } 
+    .icon1 {
+      position: absolute;
+      top: 205%;
+      width: 30%;
+    }
+    .icon2{
+      position: absolute;
+      top: 205%;
+      width: 30%;
+      left: 35%;
+    }
+    .icon3{
+      position: absolute;
+      top: 205%;
+      width: 30%;
+      left: 68%;
+    }
+    .icon4{
+      position: absolute;
+      top: 235%;
+      width: 30%;
+    }
+    .icon5{
+      position: absolute;
+      top: 235%;
+      width: 30%;
+      left: 35%;
+    }
+    .icon6{
+      position: absolute;
+      top: 235%;
+      width: 30%;
+      left: 68%;
+    }
 
-        
-      .icon1 {
-        position: absolute;
-        top: 85%;
-        width: 30%;
-      }
-      .icon2{
-        position: absolute;
-        top: 85%;
-        width: 30%;
-        left: 35%;
-      }
-      .icon3{
-        position: absolute;
-        top: 85%;
-        width: 30%;
-        left: 68%;
-      }
-      .icon4{
-        position: absolute;
-        top: 110%;
-        width: 30%;
-      }
-      .icon5{
-        position: absolute;
-        top: 110%;
-        width: 30%;
-        left: 35%;
-      }
-      .icon6{
-        position: absolute;
-        top: 110%;
-        width: 30%;
-        left: 68%;
-      }
+    .message3{
+      position: absolute;
+      top: 275%;
+      left: 7%;
+      font-size: 22px;
+    }
 
-      .message3{
-        position: absolute;
-        top: 140%;
-        left: 7%;
-        font-size: 16px;
-      }
+    /* page2 */
+    .icon1b {
+      position: absolute;
+      top: 85%;
+      width: 30%;
+    }
+    .icon2b{
+      position: absolute;
+      top: 85%;
+      width: 30%;
+      left: 35%;
+    }
+    .icon3b{
+      position: absolute;
+      top: 85%;
+      width: 30%;
+      left: 68%;
+    }
+    .icon4b{
+      position: absolute;
+      top: 115%;
+      width: 30%;
+    }
+    .icon5b{
+      position: absolute;
+      top: 115%;
+      width: 30%;
+      left: 35%;
+    }
+    .icon6b{
+      position: absolute;
+      top: 115%;
+      width: 30%;
+      left: 68%;
+    }
 
-      /* page2 */
-      .back3 {
-        position: absolute;
-        width: 105%;
-        height: 75%;
-        top: 60%;
-        left: -3%;
-        background-size: cover;
-        
-      }
-      .chara1{
-        position: absolute;
-        width: 50%;
-        top: 16%;
-        left: 23%;
-      }
+    .message3b{
+      position: absolute;
+      top: 155%;
+      left: 7%;
+      font-size: 22px;
+    }
 
-      .art1{
-        position: absolute;
-        width: 30%;
-        z-index: 10;
-        top: 46%;
-        right: 5%;
-        border: 1px solid #ccc; /* 枠線の太さと色 */
-        padding: 5px; /* 画像と枠線の間の余白 */
-        display: inline-block; /* 画像を中央揃えするために必要 */
-      }
+
+    .back3 {
+      position: absolute;
+      width: 105%;
+      height: 100%;
+      top: 45%;
+      left: -3%;
+      background-size: cover;
       
-      .next2{
-        position: absolute;
-        width: 10%;
-        top: 33%;
-        right: 5%;
-      }
-      .page2coment{
-        position: absolute;
-        top: 44%;
-        left: 8%;
-        font-size: 20px;
-      }
-      .name1{
-        font-size: 20px;
-      }
-      
-      .next3{
-        position: absolute;
-        width: 10%;
-        top: 33%;
-        right: 5%;
-  }
-  .return1{
-    position: absolute;
-    width: 10%;
-    top: 33%;
-    left: 5%;
+    }
+    .chara1{
+      position: absolute;
+      width: 50%;
+      top: 16%;
+      left: 28%;
+    }
+
+    .art1{
+      position: absolute;
+      width: 20%;
+      z-index: 10;
+      top: 50%;
+      right: 7%;
+      border: 1px solid #ccc; /* 枠線の太さと色 */
+      padding: 5px; /* 画像と枠線の間の余白 */
+      display: inline-block; /* 画像を中央揃えするために必要 */
+    }
+    
+    .next2{
+      position: absolute;
+      width: 10%;
+      top: 33%;
+      right: 5%;
+    }
+    .page2coment{
+      position: absolute;
+      top: 42%;
+      left: 12%;
+      font-size:22px;
+      z-index: 10;
+    }
+    .name1{
+      font-size: 30px;
+    }
+    
+    .next3{
+      position: absolute;
+      width: 10%;
+      top: 33%;
+      right: 5%;
 }
+.return1{
+  position: absolute;
+  width: 10%;
+  top: 33%;
+  left: 5%;
+}
+
+
+/* banner1 */
+.renga{
+width:  102%;
+position: absolute;
+top: 55%;
+left: -2%;
+border-bottom:solid 3px brown; 
+}
+.banner1{
+width: 60%;
+z-index: 10;
+position: absolute;
+top: 70%;
+left: 20%;
+}
+.banner2{
+width: 60%;
+z-index: 10;
+position: absolute;
+top: 100%;
+left: 20%;
+}
+.banner3{
+width: 60%;
+z-index: 10;
+position: absolute;
+top: 130%;
+right: 20%;
+}
+.banner4{
+width: 60%;
+z-index: 10;
+position: absolute;
+top: 160%;
+right: 20%;
+}
+
+/* index2 */
+
+.animation{
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-duration: 1.5s;
+  width: 258px;
+  position: absolute;
+  right: 12%;
+  top: 10%;
+}
+.keyframe2{
+  animation-name: anim_h;
+}
+@keyframes anim_h {
+  0% {
+    transform: translate(0px, 0);
+  }
+  100% {
+    transform: translate(30px, 0);
+  }
+}
+
+.message4{
+  position: absolute;
+  top: 5%;
+  left: 25%;
+  font-size: 20px;
+  z-index: 20;
+  transform: translateY(10%);
+opacity: 0; /* 初期状態は非表示 */
+bottom: -50px; /* 下に50px移動 */
+animation: fadein 3s ease forwards; /* 2秒かけてフェードイン */ 
+color: white;
+text-shadow:1px 1px 0 #000000, -1px -1px 0 #000000,
+            -1px 1px 0 #040404, 1px -1px 0 #000000,
+            0px 1px 0 #000000,  0-1px 0 #000000,
+            -1px 0 0 #000000, 1px 0 0 #000000;
+}
+@keyframes fadein {
+from {
+opacity: 0;
+bottom: -50px;
+}
+to {
+opacity: 1;
+bottom: 0;
+}
+}
+
+.back4{
+  width: 102%;
+  position: absolute;
+  top: 40%;
+  left: -2%;
+  border-top:solid 3px black;
+}
+.back5{
+  width: 102%;
+  position: absolute;
+  top: 70%;
+  left: -2%;
+}
+.back6{
+  width: 102%;
+  position: absolute;
+  top: 100%;
+  left: -2%;
+}
+.back7{
+  width: 102%;
+  position: absolute;
+  top: 150%;
+  left: -2%;
+  border-bottom: solid 3px black;
+}
+
+.art2{
+  position: absolute;
+  width: 35%;
+  top: 45%;
+  left: 10%;
+   padding: 0.5em 1em;
+    margin: 2em 0;
+    background: #772b02;/*背景色*/
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 1);/*影*/
+}
+
+.art3{
+  position: absolute;
+  width: 35%;
+  top: 45%;
+  right: 10%;
+  padding: 0.5em 1em;
+  margin: 2em 0;
+  background: #772b02;/*背景色*/
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 1);/*影*/
+}
+.art4{
+  position: absolute;
+  width: 35%;
+  top: 75%;
+  left: 10%;
+  padding: 0.5em 1em;
+  margin: 2em 0;
+  background: #772b02;/*背景色*/
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 1);/*影*/
+}
+.art5{
+  position: absolute;
+  width: 35%;
+  top: 75%;
+  right: 10%;
+  padding: 0.5em 1em;
+  margin: 2em 0;
+  background: #772b02;/*背景色*/
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 1);/*影*/
+}
+.art6{
+  position: absolute;
+  width: 35%;
+  top: 105%;
+  left: 10%;
+  padding: 0.5em 1em;
+  margin: 2em 0;
+  background: #772b02;/*背景色*/
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 1);/*影*/
+}
+.art7{
+  position: absolute;
+  width: 35%;
+  top: 105%;
+  right: 10%;
+  padding: 0.5em 1em;
+  margin: 2em 0;
+  background: #772b02;/*背景色*/
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 1);/*影*/
+}
+.art8{
+  position: absolute;
+  width: 35%;
+  top: 135%;
+  left: 10%;
+  padding: 0.5em 1em;
+  margin: 2em 0;
+  background: #772b02;/*背景色*/
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 1);/*影*/
+}
+.art9{
+  position: absolute;
+  width: 35%;
+  top: 135%;
+  right: 10%;
+  padding: 0.5em 1em;
+  margin: 2em 0;
+  background: #772b02;/*背景色*/
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 1);/*影*/
+}
+.art10{
+  position: absolute;
+  width: 35%;
+  top: 165%;
+  left: 10%;
+  padding: 0.5em 1em;
+  margin: 2em 0;
+  background: #772b02;/*背景色*/
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 1);/*影*/
+}
+.message3b{
+  position: absolute;
+  top: 235%;
+  left: 3%;
+  font-size: 30px;
+  
+}
+
+
+
+
+
 
 
 }
