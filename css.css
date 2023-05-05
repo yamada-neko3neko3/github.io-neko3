@@ -9,7 +9,13 @@
     }
 
     /* page1*/
-    
+
+    .instagram{
+      width: 8%;
+      position: absolute;
+      top: 1%;
+      right: 5%;
+    }
 
     .back {
         position: absolute;
@@ -62,13 +68,14 @@
         position: absolute;
         top: 8%;
         left: 8%;
-        font-size: 10px;
+        font-size: 12px;
         z-index: 20;
-        color: white;
-  text-shadow:1px 1px 0 #000000, -1px -1px 0 #000000,
-              -1px 1px 0 #040404, 1px -1px 0 #000000,
-              0px 1px 0 #000000,  0-1px 0 #000000,
-              -1px 0 0 #000000, 1px 0 0 #000000;
+        color: rgb(255, 255, 255);
+        text-shadow:1px 1px 0 #000000, -1px -1px 0 #000000,
+        -1px 1px 0 #040404, 1px -1px 0 #000000,
+        0px 1px 0 #000000,  0-1px 0 #000000,
+        -1px 0 0 #000000, 1px 0 0 #000000;
+
       }
       .message2{
         position: absolute;
@@ -255,6 +262,7 @@
 /* banner1 */
 .renga{
   width:  102%;
+  height: 80%;
   position: absolute;
   top: 40%;
   left: -2%;
@@ -290,40 +298,54 @@
  }
 
 /* index2 */
-.charaB{
-  z-index: 10;
+
+.animation{
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-duration: 1.5s;
+  width: 128px;
   position: absolute;
-  width: 40%;
-  top: 18%;
-  right: 5%;
-    transform: translateY(10%);
-    opacity: 0; /* 初期状態は非表示 */
-    bottom: -50px; /* 下に50px移動 */
-  animation: fadein 3s ease forwards; /* 2秒かけてフェードイン */ 
+  right: 7%;
+  top: 17%;
 }
-@keyframes fadein {
-  from {
-    opacity: 0;
-    bottom: -50px;
+.keyframe2{
+  animation-name: anim_h;
+}
+@keyframes anim_h {
+  0% {
+    transform: translate(0px, 0);
   }
-  to {
-    opacity: 1;
-    bottom: 0;
+  100% {
+    transform: translate(30px, 0);
   }
 }
 
 .message4{
   position: absolute;
-  top: 14%;
+  top: 0%;
   left: 18%;
-  font-size: 12px;
+  font-size: 16px;
   z-index: 20;
+  transform: translateY(10%);
+opacity: 0; /* 初期状態は非表示 */
+bottom: -50px; /* 下に50px移動 */
+animation: fadein 3s ease forwards; /* 2秒かけてフェードイン */ 
+color: white;
+text-shadow:1px 1px 0 #000000, -1px -1px 0 #000000,
+            -1px 1px 0 #040404, 1px -1px 0 #000000,
+            0px 1px 0 #000000,  0-1px 0 #000000,
+            -1px 0 0 #000000, 1px 0 0 #000000;
 }
-.fukidashi{
-  position: absolute;
-  top: 10%;
-  left: 12%;
-  width: 65%;
+@keyframes fadein {
+from {
+opacity: 0;
+bottom: -50px;
+}
+to {
+opacity: 1;
+bottom: 0;
+}
 }
 
 .back4{
@@ -331,6 +353,7 @@
   position: absolute;
   top: 40%;
   left: -2%;
+  border-top:solid 3px black;
 }
 .back5{
   width: 102%;
@@ -354,62 +377,101 @@
 
 .art2{
   position: absolute;
-  width: 40%;
-  top: 50%;
+  width: 35%;
+  top: 45%;
   left: 5%;
+   padding: 0.5em 1em;
+    margin: 2em 0;
+    background: #772b02;/*背景色*/
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 1);/*影*/
 }
+
 .art3{
   position: absolute;
-  width: 40%;
-  top: 50%;
+  width: 35%;
+  top: 45%;
   right: 5%;
+  padding: 0.5em 1em;
+  margin: 2em 0;
+  background: #772b02;/*背景色*/
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 1);/*影*/
 }
 .art4{
   position: absolute;
-  width: 40%;
-  top: 70%;
+  width: 35%;
+  top: 65%;
   left: 5%;
+  padding: 0.5em 1em;
+  margin: 2em 0;
+  background: #772b02;/*背景色*/
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 1);/*影*/
 }
 .art5{
   position: absolute;
-  width: 40%;
-  top: 70%;
+  width: 35%;
+  top: 65%;
   right: 5%;
+  padding: 0.5em 1em;
+  margin: 2em 0;
+  background: #772b02;/*背景色*/
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 1);/*影*/
 }
 .art6{
   position: absolute;
-  width: 40%;
-  top: 90%;
+  width: 35%;
+  top: 85%;
   left: 5%;
+  padding: 0.5em 1em;
+  margin: 2em 0;
+  background: #772b02;/*背景色*/
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 1);/*影*/
 }
 .art7{
   position: absolute;
-  width: 40%;
-  top: 90%;
+  width: 35%;
+  top: 85%;
   right: 5%;
+  padding: 0.5em 1em;
+  margin: 2em 0;
+  background: #772b02;/*背景色*/
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 1);/*影*/
 }
 .art8{
   position: absolute;
-  width: 40%;
-  top: 110%;
+  width: 35%;
+  top: 105%;
   left: 5%;
+  padding: 0.5em 1em;
+  margin: 2em 0;
+  background: #772b02;/*背景色*/
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 1);/*影*/
 }
 .art9{
   position: absolute;
-  width: 40%;
-  top: 110%;
+  width: 35%;
+  top: 105%;
   right: 5%;
+  padding: 0.5em 1em;
+  margin: 2em 0;
+  background: #772b02;/*背景色*/
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 1);/*影*/
 }
 .art10{
   position: absolute;
-  width: 40%;
-  top: 130%;
+  width: 35%;
+  top: 125%;
   left: 5%;
+  padding: 0.5em 1em;
+  margin: 2em 0;
+  background: #772b02;/*背景色*/
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 1);/*影*/
 }
 .message3b{
   position: absolute;
   top: 160%;
-  font-size: 16px;
+  left: 3%;
+  font-size: 14px;
+  
 }
 
 }
