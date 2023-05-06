@@ -44,9 +44,9 @@
       .charaA{
         z-index: 10;
         position: absolute;
-        width: 85%;
+        width: 65%;
         top: 8%;
-        right: 7%;
+        right: 17%;
           transform: translateY(10%);
           opacity: 0; /* 初期状態は非表示 */
           bottom: -50px; /* 下に50px移動 */
@@ -312,7 +312,7 @@
   width: 128px;
   position: absolute;
   right: 7%;
-  top: 17%;
+  top: 13%;
 }
 .keyframe2{
   animation-name: anim_h;
@@ -355,7 +355,7 @@ bottom: 0;
 
 .art2{
   position: absolute;
-  width: 100%;
+  width: 80%;
   z-index: 10;
   top: 40%;
   left: -1%;
@@ -364,55 +364,55 @@ bottom: 0;
 
 .art3{
   position: absolute;
-  width: 100%;
+  width: 80%;
   top: 80%;
   left: -1%;
 }
 .art4{
   position: absolute;
-  width: 100%;
+  width: 80%;
   top: 120%;
   left: -1%;
   
 }
 .art5{
   position: absolute;
-  width: 100%;
+  width: 80%;
   top: 160%;
   left: -1%;
   
 }
 .art6{
   position: absolute;
-  width: 100%;
+  width: 80%;
   top: 200%;
   left: -1%;
   
 }
 .art7{
   position: absolute;
-  width: 100%;
+  width: 80%;
   top: 240%;
   left: -1%;
   
 }
 .art8{
   position: absolute;
-  width: 100%;
+  width: 80%;
   top: 280%;
   left: -1%;
   
 }
 .art9{
   position: absolute;
-  width: 100%;
+  width: 80%;
   top: 320%;
   left: -1%;
   
 }
 .art10{
   position: absolute;
-  width: 100%;
+  width: 80%;
   top: 360%;
   left: -1%;
   
