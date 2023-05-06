@@ -1,5 +1,5 @@
   /* デスクトップの画面サイズ */
-  @media (min-width: 769px)and (max-width: 1180px) {
+  @media (min-width: 769px)and  (max-width: 1180px) {
     .container {
       width: 80%;
     }
@@ -21,15 +21,15 @@
     .back {
       position: absolute;
       width: 100%; /* 幅を100%に設定 */
-      height: 45%;
-      top: 10%;
+      height: 65%;
+      top: 0%;
       left: 0;
       background-size: cover;      
     }
     
     .logo {
       position: absolute;
-      width: 20%; /* 幅を20%に設定 */
+      width: 50%; /* 幅を20%に設定 */
       top: 0%;
       left: 5%;
     }
@@ -47,9 +47,9 @@
     .charaA{
       z-index: 10;
       position: absolute;
-      width: 20%; /* 幅を20%に設定 */
-      top: 20%;
-      right: 5%;
+      width: 40%;
+      top: 15%;
+      right: 28%;
       transform: translateY(10%);
       opacity: 0; /* 初期状態は非表示 */
       bottom: -50px; /* 下に50px移動 */
@@ -198,7 +198,13 @@ text-shadow:1px 1px 0 #000000, -1px -1px 0 #000000,
 
     .message3b{
       position: absolute;
-      top: 195%;
+      top: 5%;
+      left: 7%;
+      font-size: 22px;
+    }
+    .message3c{
+      position: absolute;
+      top: 220%;
       left: 7%;
       font-size: 22px;
     }
@@ -306,10 +312,10 @@ right: 20%;
   animation-iteration-count: infinite;
   animation-direction: alternate;
   animation-duration: 1.5s;
-  width: 258px;
+  width: 228px;
   position: absolute;
-  right: 12%;
-  top: 10%;
+  right: 17%;
+  top: 17%;
 }
 .keyframe2{
   animation-name: anim_h;
@@ -326,8 +332,8 @@ right: 20%;
 .message4{
   position: absolute;
   top: 5%;
-  left: 30%;
-  font-size: 28px;
+  left: 18%;
+  font-size: 26px;
   z-index: 20;
   transform: translateY(10%);
 opacity: 0; /* 初期状態は非表示 */
@@ -349,141 +355,78 @@ opacity: 1;
 bottom: 0;
 }
 }
-/*
-.fukidashi{
-  position: absolute;
-  top: 5%;
-  left: 22%;
-  width: 35%;
-}
-*/
-
-.back4{
-  width: 102%;
-  position: absolute;
-  top: 40%;
-  left: -2%;
-  border-top:solid 3px black;
-}
-.back5{
-  width: 102%;
-  position: absolute;
-  top: 70%;
-  left: -2%;
-}
-.back6{
-  width: 102%;
-  position: absolute;
-  top: 100%;
-  left: -2%;
-}
-.back7{
-  width: 102%;
-  position: absolute;
-  top: 165%;
-  left: -2%;
-  border-bottom: solid 3px black;
-}
 
 .art2{
   position: absolute;
-  width: 35%;
-  top: 45%;
-  left: 10%;
-   padding: 0.5em 1em;
-    margin: 2em 0;
-    background: #772b02;/*背景色*/
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 1);/*影*/
+  width: 60%;
+  z-index: 10;
+  top: 60%;
+  left: -1%;
+
 }
 
 .art3{
   position: absolute;
-  width: 35%;
-  top: 45%;
-  right: 10%;
-  padding: 0.5em 1em;
-  margin: 2em 0;
-  background: #772b02;/*背景色*/
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 1);/*影*/
+  width: 60%;
+  top: 110%;
+  left: -1%;
 }
 .art4{
   position: absolute;
-  width: 35%;
-  top: 85%;
-  left: 10%;
-  padding: 0.5em 1em;
-  margin: 2em 0;
-  background: #772b02;/*背景色*/
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 1);/*影*/
+  width: 60%;
+  top: 160%;
+  left: -1%;
+  
 }
 .art5{
   position: absolute;
-  width: 35%;
-  top: 85%;
-  right: 10%;
-  padding: 0.5em 1em;
-  margin: 2em 0;
-  background: #772b02;/*背景色*/
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 1);/*影*/
+  width: 60%;
+  top: 210%;
+  left: -1%;
+  
 }
 .art6{
   position: absolute;
-  width: 35%;
-  top: 125%;
-  left: 10%;
-  padding: 0.5em 1em;
-  margin: 2em 0;
-  background: #772b02;/*背景色*/
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 1);/*影*/
+  width: 60%;
+  top: 260%;
+  left: -1%;
+  
 }
 .art7{
   position: absolute;
-  width: 35%;
-  top: 125%;
-  right: 10%;
-  padding: 0.5em 1em;
-  margin: 2em 0;
-  background: #772b02;/*背景色*/
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 1);/*影*/
+  width: 60%;
+  top: 310%;
+  left: -1%;
+  
 }
 .art8{
   position: absolute;
-  width: 35%;
-  top: 165%;
-  left: 10%;
-  padding: 0.5em 1em;
-  margin: 2em 0;
-  background: #772b02;/*背景色*/
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 1);/*影*/
+  width: 60%;
+  top: 360%;
+  left: -1%;
+  
 }
 .art9{
   position: absolute;
-  width: 35%;
-  top: 165%;
-  right: 10%;
-  padding: 0.5em 1em;
-  margin: 2em 0;
-  background: #772b02;/*背景色*/
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 1);/*影*/
+  width: 60%;
+  top: 410%;
+  left: -1%;
+  
 }
 .art10{
   position: absolute;
-  width: 35%;
-  top: 205%;
-  left: 10%;
-  padding: 0.5em 1em;
-  margin: 2em 0;
-  background: #772b02;/*背景色*/
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 1);/*影*/
-}
-.message3b{
-  position: absolute;
-  top: 265%;
-  left: 3%;
-  font-size: 30px;
+  width: 60%;
+  top: 460%;
+  left: -1%;
   
 }
 
+.message3b{
+  position: absolute;
+  top: 530%;
+  left: 3%;
+  font-size: 24px;
+  
+}
 
-
-  }
+}
