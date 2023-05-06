@@ -312,7 +312,7 @@ right: 20%;
   animation-iteration-count: infinite;
   animation-direction: alternate;
   animation-duration: 1.5s;
-  width: 228px;
+  width: 328px;
   position: absolute;
   right: 17%;
   top: 17%;
@@ -360,7 +360,7 @@ bottom: 0;
   position: absolute;
   width: 60%;
   z-index: 10;
-  top: 60%;
+  top: 80%;
   left: -1%;
 
 }
@@ -368,64 +368,64 @@ bottom: 0;
 .art3{
   position: absolute;
   width: 60%;
-  top: 110%;
+  top: 130%;
   left: -1%;
 }
 .art4{
   position: absolute;
   width: 60%;
-  top: 160%;
+  top: 180%;
   left: -1%;
   
 }
 .art5{
   position: absolute;
   width: 60%;
-  top: 210%;
+  top: 230%;
   left: -1%;
   
 }
 .art6{
   position: absolute;
   width: 60%;
-  top: 260%;
+  top: 280%;
   left: -1%;
   
 }
 .art7{
   position: absolute;
   width: 60%;
-  top: 310%;
+  top: 330%;
   left: -1%;
   
 }
 .art8{
   position: absolute;
   width: 60%;
-  top: 360%;
+  top: 380%;
   left: -1%;
   
 }
 .art9{
   position: absolute;
   width: 60%;
-  top: 410%;
+  top: 430%;
   left: -1%;
   
 }
 .art10{
   position: absolute;
   width: 60%;
-  top: 460%;
+  top: 480%;
   left: -1%;
   
 }
 
 .message3b{
   position: absolute;
-  top: 530%;
+  top: 550%;
   left: 3%;
-  font-size: 24px;
+  font-size: 30px;
   
 }
 
