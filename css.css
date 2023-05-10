@@ -24,8 +24,88 @@
         top: 0%;
         left: -3%;
         background-size: cover;
-        
       }
+      .back-in2a {
+        position: absolute;
+        width: 103%;
+        height: 60%;
+        top: 35%;
+        left: -3%;
+        background-size: cover;
+      }
+      .back-in2b {
+        position: absolute;
+        width: 103%;
+        height: 60%;
+        top: 70%;
+        left: -3%;
+        background-size: cover;
+      }
+      .back-in2c{
+        position: absolute;
+        width: 103%;
+        height: 60%;
+        top: 105%;
+        left: -3%;
+        background-size: cover;
+      }
+      .back-in2d{
+        position: absolute;
+        width: 103%;
+        height: 60%;
+        top: 140%;
+        left: -3%;
+        background-size: cover;
+      }
+      .back-in2e{
+        position: absolute;
+        width: 103%;
+        height: 60%;
+        top: 175%;
+        left: -3%;
+        background-size: cover;
+      }
+      .back-in2f{
+        position: absolute;
+        width: 103%;
+        height: 60%;
+        top: 210%;
+        left: -3%;
+        background-size: cover;
+      }
+      .back-in2g{
+        position: absolute;
+        width: 103%;
+        height: 60%;
+        top: 245%;
+        left: -3%;
+        background-size: cover;
+      }
+      .back-in2h{
+        position: absolute;
+        width: 103%;
+        height: 60%;
+        top: 270%;
+        left: -3%;
+        background-size: cover;
+      }
+      .back-in2i{
+        position: absolute;
+        width: 103%;
+        height: 60%;
+        top: 305%;
+        left: -3%;
+        background-size: cover;
+      }
+      .back-in2j{
+        position: absolute;
+        width: 103%;
+        height: 60%;
+        top: 340%;
+        left: -3%;
+        background-size: cover;
+      }
+
       .back4{
         position: absolute;
         width: 103%;
@@ -36,6 +116,8 @@
       }
       .logo {
         position: absolute;
+        position: fixed;
+        z-index: 100;
         width: 55%;
         top: 0%;
         left: 5%;
@@ -433,5 +515,7 @@ bottom: 0;
   font-size: 14px;
   
 }
+
+
 
 }
