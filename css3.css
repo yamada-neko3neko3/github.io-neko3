@@ -26,6 +26,92 @@
       left: -3%;
       background-size: cover;
     }
+    .back-in2a {
+      position: absolute;
+      width: 103%;
+      height: 50%;
+      top: 55%;
+      left: -3%;
+      background-size: cover;
+    }
+    .back-in2b {
+      position: absolute;
+      width: 103%;
+      height: 60%;
+      top: 105%;
+      left: -3%;
+      background-size: cover;
+    }
+    .back-in2c{
+      position: absolute;
+      width: 103%;
+      height: 60%;
+      top: 165%;
+      left: -3%;
+      background-size: cover;
+    }
+    .back-in2d{
+      position: absolute;
+      width: 103%;
+      height: 60%;
+      top: 220%;
+      left: -3%;
+      background-size: cover;
+    }
+    .back-in2e{
+      position: absolute;
+      width: 103%;
+      height: 60%;
+      top: 275%;
+      left: -3%;
+      background-size: cover;
+    }
+    .back-in2f{
+      position: absolute;
+      width: 103%;
+      height: 60%;
+      top: 330%;
+      left: -3%;
+      background-size: cover;
+    }
+    .back-in2g{
+      position: absolute;
+      width: 103%;
+      height: 60%;
+      top: 385%;
+      left: -3%;
+      background-size: cover;
+    }
+    .back-in2h{
+      position: absolute;
+      width: 103%;
+      height: 60%;
+      top: 440%;
+      left: -3%;
+      background-size: cover;
+    }
+    .back-in2i{
+      z-index: -10;
+      position: absolute;
+      width: 103%;
+      height: 60%;
+      top: 305%;
+      left: -3%;
+      background-size: cover;
+    }
+    .back-in2j{
+      z-index: -10;
+      position: absolute;
+      width: 103%;
+      height: 60%;
+      top: 340%;
+      left: -3%;
+      background-size: cover;
+    }
+
+
+
+
     .back4{
       position: absolute;
       width: 103%;
@@ -36,6 +122,8 @@
     }
     .logo {
       position: absolute;
+      position: fixed;
+        z-index: 100;
       width: 35%;
       top: 2%;
       left: 5%;
