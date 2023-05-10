@@ -21,11 +21,71 @@
     .back {
       position: absolute;
       width: 103%;
-      height: 45%;
+      height: 75%;
+      top: 0%;
+      left: -3%;
+      background-size: cover;
+    }
+    .backplus1{
+      position: absolute;
+      width: 103%;
+      height: 35%;
       top: 10%;
       left: -3%;
       background-size: cover;
     }
+    .backplus1{
+      animation: poyoyon1 2.5s cubic-bezier(0.12, 0, 0.39, 0) 1 forwards ;
+    }
+    @keyframes poyoyon1 {
+      0% {
+        transform: translateX(140px);
+        opacity: 0.5;
+      }
+      50% {
+        transform: translateX(0);
+      }
+      65% {
+        transform: translateX(30px);
+      }
+      100% {
+        transform: translateX(0);
+      }
+      20%,100% {
+        opacity: 0.7;
+      }
+      
+    }
+    .backplus2{
+      position: absolute;
+      width: 103%;
+      height: 35%;
+      top: 10%;
+      left: -3%;
+      background-size: cover;
+    }
+    .backplus2{
+      animation: poyoyon2 2.5s cubic-bezier(0.12, 0, 0.39, 0) 1 forwards ;
+    }
+    @keyframes poyoyon2 {
+      0% {
+        transform: translateX(-140px);
+        opacity: 0.5;
+      }
+      50% {
+        transform: translateX(0);
+      }
+      65% {
+        transform: translateX(-30px);
+      }
+      100% {
+        transform: translateX(0);
+      }
+      20%,100% {
+        opacity: 0.7;
+      }
+    }
+     
     .back-in2a {
       position: absolute;
       width: 103%;
