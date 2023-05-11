@@ -1,4 +1,32 @@
- .backplus1{
+  /* デスクトップの画面サイズ */
+  @media (min-width: 769px)and  (max-width: 1180px) {
+    .container {
+      width: 80%;
+    }
+    .section {
+      margin-top: 50px;
+      padding: 20px;
+    }
+ 
+    /* page1*/
+
+
+    .instagram{
+      width: 7%;
+      position: absolute;
+      top: 1%;
+      right: 3%;
+    }
+
+    .back {
+      position: absolute;
+      width: 100%; /* 幅を100%に設定 */
+      height: 65%;
+      top: 0%;
+      left: 0%;
+      background-size: cover;      
+    }
+    .backplus1{
         position: absolute;
         width: 103%;
         height: 65%;
@@ -57,3 +85,547 @@
           opacity: 0.7;
         }
       }
+
+
+    .back-in2a {
+      position: absolute;
+      width: 103%;
+      height: 100%;
+      top: 65%;
+      left: -3%;
+      background-size: cover;
+    }
+    .back-in2b {
+      position: absolute;
+      width: 103%;
+      height: 100%;
+      top: 130%;
+      left: -3%;
+      background-size: cover;
+    }
+    .back-in2c{
+      position: absolute;
+      width: 103%;
+      height: 100%;
+      top: 195%;
+      left: -3%;
+      background-size: cover;
+    }
+    .back-in2d{
+      position: absolute;
+      width: 103%;
+      height: 100%;
+      top: 260%;
+      left: -3%;
+      background-size: cover;
+    }
+    .back-in2e{
+      position: absolute;
+      width: 103%;
+      height: 100%;
+      top: 325%;
+      left: -3%;
+      background-size: cover;
+    }
+    .back-in2f{
+      position: absolute;
+      width: 103%;
+      height: 100%;
+      top: 380%;
+      left: -3%;
+      background-size: cover;
+    }
+    .back-in2g{
+      position: absolute;
+      width: 103%;
+      height: 100%;
+      top: 445%;
+      left: -3%;
+      background-size: cover;
+    }
+    .back-in2h{
+      position: absolute;
+      width: 103%;
+      height: 100%;
+      top: 545%;
+      left: -3%;
+      background-size: cover;
+    }
+    .back-in2i{
+      z-index: -10;
+      position: absolute;
+      width: 103%;
+      height: 100%;
+      top: 645%;
+      left: -3%;
+      background-size: cover;
+    }
+    .back-in2j{
+      z-index: -10;
+      position: absolute;
+      width: 103%;
+      height: 60%;
+      top: 745%;
+      left: -3%;
+      background-size: cover;
+    }
+
+
+
+
+
+    .back4{
+      position: absolute;
+      width: 103%;
+      height: 90%;
+      top: 295%;
+      left: -3%;
+      background-size: cover;
+    }
+    
+    .logo {
+      position: absolute;
+      position: fixed;
+        z-index: 100;
+      width: 30%; /* 幅を20%に設定 */
+      top: 0%;
+      left: 5%;
+    }
+    
+    .back2 {
+      position: absolute;
+      width: 100%;
+      top: 50%;
+      height: 10%;
+      left: 0;
+      z-index: 10;
+      border-bottom: solid 3px green;
+    }
+    
+    .charaA{
+      z-index: 10;
+      position: absolute;
+      width: 40%;
+      top: 15%;
+      right: 28%;
+      transform: translateY(10%);
+      opacity: 0; /* 初期状態は非表示 */
+      bottom: -50px; /* 下に50px移動 */
+      animation: fadein 3s ease forwards; /* 2秒かけてフェードイン */ 
+    }
+    
+    @keyframes fadein {
+      from {
+        opacity: 0;
+        bottom: -50px;
+      }
+      to {
+        opacity: 1;
+        bottom: 0;
+      }
+    }
+    
+
+    .message1{
+      position: absolute;
+      top: 15%;
+      left: 12%;
+      font-size: 28px;
+      z-index: 20;
+      color: white;
+text-shadow:1px 1px 0 #000000, -1px -1px 0 #000000,
+            -1px 1px 0 #040404, 1px -1px 0 #000000,
+            0px 1px 0 #000000,  0-1px 0 #000000,
+            -1px 0 0 #000000, 1px 0 0 #000000;
+    }
+    .message2{
+      position: absolute;
+      width: 70%;
+      top: 290%;
+      left: 16%;
+    }
+    
+    .cloud1{
+      position: relative;
+      width: 35%;
+      top: 38%;
+      left: 7%;
+    }
+    .cloud2{
+      position: relative;
+      width: 20%;
+      top: 18%;
+      right: -5%;
+    }
+    .cloud3{
+      position: absolute;
+      width: 50%;
+      right: -15%;
+    }
+      .idou{
+        z-index: -10;
+        position: absolute;
+      top: 5%;
+      animation-name:idou;
+      animation-duration:7s;
+      animation-timing-function:ease;
+      animation-iteration-count:infinite;
+      animation-direction:alternate;
+      } 
+      @keyframes idou{
+      100%{transform:translate(20%,0px);}
+      } 
+
+      
+    .icon1 {
+      position: absolute;
+      top: 305%;
+      width: 30%;
+    }
+    .icon1:hover {
+      transform: translateY(-5px);
+    }
+
+    .icon2{
+      position: absolute;
+      top: 305%;
+      width: 30%;
+      left: 35%;
+    }
+    .icon2:hover {
+      transform: translateY(-5px);
+    }
+
+    .icon3{
+      position: absolute;
+      top: 305%;
+      width: 30%;
+      left: 68%;
+    }
+    .icon3:hover {
+      transform: translateY(-5px);
+    }
+
+    .icon4{
+      position: absolute;
+      top: 345%;
+      width: 30%;
+    }
+    .icon4:hover {
+      transform: translateY(-5px);
+    }
+
+    .icon5{
+      position: absolute;
+      top: 345%;
+      width: 30%;
+      left: 35%;
+    }
+    .icon5:hover {
+      transform: translateY(-5px);
+    }
+
+    .icon6{
+      position: absolute;
+      top: 345%;
+      width: 30%;
+      left: 68%;
+    }
+    .icon6:hover {
+      transform: translateY(-5px);
+    }
+
+    .message3{
+      position: absolute;
+      top: 395%;
+      left: 7%;
+      font-size: 22px;
+    }
+
+    .icon1b {
+      position: absolute;
+      top: 105%;
+      width: 30%;
+    }
+    .icon1b:hover {
+      transform: translateY(-5px);
+    }
+    .icon2b{
+      position: absolute;
+      top: 105%;
+      width: 30%;
+      left: 35%;
+    }
+    .icon2b:hover {
+      transform: translateY(-5px);
+    }
+    .icon3b{
+      position: absolute;
+      top: 105%;
+      width: 30%;
+      left: 68%;
+    }
+    .icon3b:hover {
+      transform: translateY(-5px);
+    }
+    .icon4b{
+      position: absolute;
+      top: 165%;
+      width: 30%;
+    }
+    .icon4b:hover {
+      transform: translateY(-5px);
+    }
+    .icon5b{
+      position: absolute;
+      top: 165%;
+      width: 30%;
+      left: 35%;
+    }
+    .icon5b:hover {
+      transform: translateY(-5px);
+    }
+    .icon6b{
+      position: absolute;
+      top: 165%;
+      width: 30%;
+      left: 68%;
+    }
+    .icon6b:hover {
+      transform: translateY(-5px);
+    }
+
+    .message3b{
+      position: absolute;
+      top: 5%;
+      left: 7%;
+      font-size: 22px;
+    }
+    .message3c{
+      position: absolute;
+      top: 220%;
+      left: 7%;
+      font-size: 22px;
+    }
+
+/* page2 */
+    .back3 {
+      position: absolute;
+      width: 105%;
+      height: 120%;
+      top: 65%;
+      left: -3%;
+      background-size: cover;
+      
+    }
+    .chara1{
+      position: absolute;
+      width: 50%;
+      top: 5%;
+      left: 30%;
+    }
+
+    .art1{
+      position: absolute;
+      width: 20%;
+      z-index: 10;
+      top: 56%;
+      right: 7%;
+      border: 1px solid #ccc; /* 枠線の太さと色 */
+      padding: 5px; /* 画像と枠線の間の余白 */
+      display: inline-block; /* 画像を中央揃えするために必要 */
+    }
+    
+    .next2{
+      position: absolute;
+      width: 10%;
+      top: 33%;
+      right: 5%;
+    }
+    .page2coment{
+      position: absolute;
+      top: 40%;
+      left: 12%;
+      font-size:32px;
+      z-index: 10;
+    }
+    .name1{
+      font-size: 40px;
+    }
+    
+    .next3{
+      position: absolute;
+      width: 10%;
+      top: 33%;
+      right: 5%;
+}
+.return1{
+  position: absolute;
+  width: 10%;
+  top: 33%;
+  left: 5%;
+}
+
+
+/* banner1 */
+.renga{
+width:  102%;
+position: absolute;
+top: 55%;
+left: -2%;
+border-bottom:solid 3px brown; 
+}
+.banner1{
+width: 60%;
+z-index: 10;
+position: absolute;
+top: 78%;
+left: 20%;
+}
+.banner2{
+width: 60%;
+z-index: 10;
+position: absolute;
+top: 115%;
+left: 20%;
+}
+.banner3{
+width: 60%;
+z-index: 10;
+position: absolute;
+top: 150%;
+right: 20%;
+}
+.banner4{
+width: 60%;
+z-index: 10;
+position: absolute;
+top: 185%;
+right: 20%;
+}
+
+/* index2 */
+
+.animation{
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-duration: 1.5s;
+  width: 328px;
+  position: absolute;
+  right: 17%;
+  top: 17%;
+}
+.keyframe2{
+  animation-name: anim_h;
+}
+@keyframes anim_h {
+  0% {
+    transform: translate(0px, 0);
+  }
+  100% {
+    transform: translate(30px, 0);
+  }
+}
+
+.message4{
+  position: absolute;
+  top: 5%;
+  left: 18%;
+  font-size: 26px;
+  z-index: 20;
+  transform: translateY(10%);
+opacity: 0; /* 初期状態は非表示 */
+bottom: -50px; /* 下に50px移動 */
+animation: fadein 3s ease forwards; /* 2秒かけてフェードイン */ 
+color: white;
+text-shadow:1px 1px 0 #000000, -1px -1px 0 #000000,
+            -1px 1px 0 #040404, 1px -1px 0 #000000,
+            0px 1px 0 #000000,  0-1px 0 #000000,
+            -1px 0 0 #000000, 1px 0 0 #000000;
+}
+@keyframes fadein {
+from {
+opacity: 0;
+bottom: -50px;
+}
+to {
+opacity: 1;
+bottom: 0;
+}
+}
+
+.art2{
+  position: absolute;
+  width: 70%;
+  z-index: 10;
+  top: 80%;
+  left: -1%;
+
+}
+
+.art3{
+  position: absolute;
+  width: 70%;
+  top: 160%;
+  left: -1%;
+}
+.art4{
+  position: absolute;
+  width: 70%;
+  top: 240%;
+  left: -1%;
+  
+}
+.art5{
+  position: absolute;
+  width: 70%;
+  top: 320%;
+  left: -1%;
+  
+}
+.art6{
+  position: absolute;
+  width: 70%;
+  top: 400%;
+  left: -1%;
+  
+}
+.art7{
+  position: absolute;
+  width: 70%;
+  top: 480%;
+  left: -1%;
+  
+}
+.art8{
+  position: absolute;
+  width: 70%;
+  top: 560%;
+  left: -1%;
+  
+}
+.art9{
+  position: absolute;
+  width: 70%;
+  top: 640%;
+  left: -1%;
+  
+}
+.art10{
+  position: absolute;
+  width: 70%;
+  top: 720%;
+  left: -1%;
+  
+}
+
+.message3b{
+  position: absolute;
+  top: 850%;
+  left: 3%;
+  font-size: 30px;
+  
+}
+
+}
