@@ -424,6 +424,32 @@ text-shadow:1px 1px 0 #000000, -1px -1px 0 #000000,
       top: 5%;
       left: 30%;
     }
+     .move1{
+      position: absolute;
+      top: 70%;
+    }
+    .animation2{
+      position: relative;
+      width: 30%;
+      left: 3%;
+      animation-timing-function: ease-in-out;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+      animation-duration: 1.5s;
+      width: 228px;
+    }
+    .keyframe0{
+      animation-name: anim_po;
+      position: absolute;
+    }
+    @keyframes anim_po {
+      0% {
+        top: 0px;
+      }
+      100% {
+        top: 80px;
+      }
+    }
 
     .art1{
       position: absolute;
@@ -560,64 +586,101 @@ bottom: 0;
   width: 70%;
   z-index: 10;
   top: 80%;
-  left: -1%;
-
+  left: 10%;
+  border: double 10px #cd7000;
+  border-bottom: solid 5px black;
+  padding: 5px;
+  background: #893901;/*背景色*/
+  box-shadow: 0 3px 4px rgba(0, 0, 0, 0.32);/*影*/
 }
 
 .art3{
   position: absolute;
   width: 70%;
   top: 160%;
-  left: -1%;
+  left: 10%;
+  border: double 10px #cd7000;
+  border-bottom: solid 5px black;
+  padding: 5px;
+  background: #893901;/*背景色*/
+  box-shadow: 0 3px 4px rgba(0, 0, 0, 0.32);/*影*/
 }
 .art4{
   position: absolute;
   width: 70%;
   top: 240%;
-  left: -1%;
-  
+  left: 10%;
+  border: double 10px #cd7000;
+  border-bottom: solid 5px black;
+  padding: 5px;
+  background: #893901;/*背景色*/
+  box-shadow: 0 3px 4px rgba(0, 0, 0, 0.32);/*影*/
 }
 .art5{
   position: absolute;
   width: 70%;
   top: 320%;
-  left: -1%;
-  
+  left: 10%;
+  border: double 10px #cd7000;
+  border-bottom: solid 5px black;
+  padding: 5px;
+  background: #893901;/*背景色*/
+  box-shadow: 0 3px 4px rgba(0, 0, 0, 0.32);/*影*/
 }
 .art6{
   position: absolute;
   width: 70%;
   top: 400%;
-  left: -1%;
-  
+  left: 10%;
+  border: double 10px #cd7000;
+  border-bottom: solid 5px black;
+  padding: 5px;
+  background: #893901;/*背景色*/
+  box-shadow: 0 3px 4px rgba(0, 0, 0, 0.32);/*影*/
 }
 .art7{
   position: absolute;
   width: 70%;
   top: 480%;
-  left: -1%;
-  
+  left: 10%;
+  border: double 10px #cd7000;
+  border-bottom: solid 5px black;
+  padding: 5px;
+  background: #893901;/*背景色*/
+  box-shadow: 0 3px 4px rgba(0, 0, 0, 0.32);/*影*/
 }
 .art8{
   position: absolute;
   width: 70%;
   top: 560%;
-  left: -1%;
-  
+  left: 10%;
+  border: double 10px #cd7000;
+  border-bottom: solid 5px black;
+  padding: 5px;
+  background: #893901;/*背景色*/
+  box-shadow: 0 3px 4px rgba(0, 0, 0, 0.32);/*影*/
 }
 .art9{
   position: absolute;
   width: 70%;
   top: 640%;
-  left: -1%;
-  
+  left: 10%;
+  border: double 10px #cd7000;
+  border-bottom: solid 5px black;
+  padding: 5px;
+  background: #893901;/*背景色*/
+  box-shadow: 0 3px 4px rgba(0, 0, 0, 0.32);/*影*/
 }
 .art10{
   position: absolute;
   width: 70%;
   top: 720%;
-  left: -1%;
-  
+  left: 10%;
+  border: double 10px #cd7000;
+  border-bottom: solid 5px black;
+  padding: 5px;
+  background: #893901;/*背景色*/
+  box-shadow: 0 3px 4px rgba(0, 0, 0, 0.32);/*影*/
 }
 
 .message3b{
