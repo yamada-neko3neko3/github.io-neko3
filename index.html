@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="css3.css">
     <link rel="stylesheet" href="css4.css">
     <script type="text/javascript" src="js.js"></script>
-    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@500&display=swap');
         p {
@@ -37,7 +37,7 @@
     <a href="index.html"><img class="logo" src="img/商品名.png"></a> 
     <img class="back2" src="img/背景ギザギザ２.png">
     <img class="charaA" src="img/集合.png">
-    <img class="charaB" src="img/モグ男２.png">
+    <div class="scrollanime slide-left"><img src="img/モグ男２.png" width="50%"></div>
     
 <div id="footer">
     <img src="img/背景2.png" id="slide">
@@ -65,8 +65,40 @@
         <img class="banner3" src="img2/バナー5.png"></a>
         <a href="＃">
          <img class="banner4" src="img2/バナー4.png"></a>
+            
+         <div class="loader">
+              <p class="txt">なうろうでぃんぐ</p>
+            </div>
 
+            <!-- 画像フェードイン　-->
+         <script>
+            $(function () {
+                $(window).scroll(function () {
+                    const wHeight = $(window).height();
+                    const scrollAmount = $(window).scrollTop();
+                    $('.scrollanime').each(function () {
+                        const targetPosition = $(this).offset().top;
+                        if(scrollAmount > targetPosition - wHeight + 60) {
+                            $(this).addClass("fadeInDown");
+                        }
+                    });
+                });
+            });
+            </script>
 
+<!-- ロード　-->
+<script>
+    $(function () {
+      function end_loader() {
+        $('.loader').fadeOut(800);
+      }
+      $(window).on('load', function () {
+        setTimeout(function () {
+          end_loader();
+        }, 3000)
+      })
+    })
+    </script>
 </body>
 
 </html>
