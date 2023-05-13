@@ -59,6 +59,18 @@
     <p class="message3b">©Yamadanekoshi All rights reserved.</p>
 
     <script type="text/javascript" src="js.js"></script>
+    <script>
+        $(function () {
+          function end_loader() {
+            $('.loader').fadeOut(800);
+          }
+          $(window).on('load', function () {
+            setTimeout(function () {
+              end_loader();
+            }, 3000)
+          })
+        })
+        </script>
   
 </body>
 
