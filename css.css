@@ -166,6 +166,7 @@
         background-size: cover;
       }
 
+      /*
       .back4{
         position: absolute;
         width: 103%;
@@ -173,7 +174,7 @@
         top: 120%;
         left: -3%;
         background-size: cover;
-      }
+      } */
       
       
       .logo {
@@ -214,7 +215,6 @@
           bottom: 0;
         }
       }
-      
 
       .message1{
         position: absolute;
@@ -273,7 +273,23 @@
         100%{transform:translate(20%,0px);}
         } 
 
-        
+        .charaB{
+          z-index: 20;
+          position: absolute;
+          width: 45%;
+          top: 95%;
+        }
+  
+        #footer {
+          overflow: hidden;
+          position: fixed;
+          width: 100%;
+          bottom: 100px;
+          left: -1px;
+      }
+      #slide {
+          width: 100%;
+      } 
       .icon1 {
         position: absolute;
         top: 145%;
