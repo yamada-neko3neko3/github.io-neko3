@@ -259,7 +259,24 @@ text-shadow:1px 1px 0 #000000, -1px -1px 0 #000000,
       100%{transform:translate(20%,0px);}
       } 
 
-      
+      .charaB{
+        z-index: 20;
+        position: absolute;
+        width: 45%;
+        top: 185%;
+      }
+  
+      #footer {
+        z-index: -10;
+        overflow: hidden;
+        position: fixed;
+        width: 100%;
+        bottom: 100px;
+        left: -1px;
+    }
+    #slide {
+        width: 100%;
+    }
     .icon1 {
       position: absolute;
       top: 385%;
