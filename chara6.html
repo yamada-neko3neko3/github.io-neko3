@@ -60,17 +60,19 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/css/lightbox.css" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-1.12.4.min.js" type="text/javascript"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/js/lightbox.min.js" type="text/javascript"></script>
-    <script>
+     <script>
         $(function () {
-          function end_loader() {
-            $('.loader').fadeOut(800);
-          }
-          $(window).on('load', function () {
-            setTimeout(function () {
-              end_loader();
-            }, 3000)
-          })
-        })
+            $(window).scroll(function () {
+                const wHeight = $(window).height();
+                const scrollAmount = $(window).scrollTop();
+                $('.scrollanime').each(function () {
+                    const targetPosition = $(this).offset().top;
+                    if(scrollAmount > targetPosition - wHeight + 60) {
+                        $(this).addClass("fadeInDown");
+                    }
+                });
+            });
+        });
         </script>
 </body>
 
