@@ -18,7 +18,7 @@
             font-family: 'Zen Maru Gothic', sans-serif;
         }
     </style>
-    </head>
+</head>
 
 <body>
     <a href="index.html"><img class="logo" src="img/商品名.png"></a>
@@ -60,20 +60,7 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/css/lightbox.css" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-1.12.4.min.js" type="text/javascript"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/js/lightbox.min.js" type="text/javascript"></script>
-   <script>
-        $(function () {
-            $(window).scroll(function () {
-                const wHeight = $(window).height();
-                const scrollAmount = $(window).scrollTop();
-                $('.scrollanime').each(function () {
-                    const targetPosition = $(this).offset().top;
-                    if(scrollAmount > targetPosition - wHeight + 60) {
-                        $(this).addClass("fadeInDown");
-                    }
-                });
-            });
-        });
-        </script>
+        
 </body>
 
 </html>
