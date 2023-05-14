@@ -62,17 +62,18 @@
     <script type="text/javascript" src="js.js"></script>
     <script>
         $(function () {
-          function end_loader() {
-            $('.loader').fadeOut(800);
-          }
-          $(window).on('load', function () {
-            setTimeout(function () {
-              end_loader();
-            }, 3000)
-          })
-        })
+            $(window).scroll(function () {
+                const wHeight = $(window).height();
+                const scrollAmount = $(window).scrollTop();
+                $('.scrollanime').each(function () {
+                    const targetPosition = $(this).offset().top;
+                    if(scrollAmount > targetPosition - wHeight + 60) {
+                        $(this).addClass("fadeInDown");
+                    }
+                });
+            });
+        });
         </script>
-  
 </body>
 
 </html>
