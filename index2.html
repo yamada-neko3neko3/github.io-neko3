@@ -60,20 +60,7 @@
     <p class="message3b">©Yamadanekoshi All rights reserved.</p>
 
     <script type="text/javascript" src="js.js"></script>
-    <script>
-        $(function () {
-            $(window).scroll(function () {
-                const wHeight = $(window).height();
-                const scrollAmount = $(window).scrollTop();
-                $('.scrollanime').each(function () {
-                    const targetPosition = $(this).offset().top;
-                    if(scrollAmount > targetPosition - wHeight + 60) {
-                        $(this).addClass("fadeInDown");
-                    }
-                });
-            });
-        });
-        </script>
+
 </body>
 
 </html>
