@@ -58,7 +58,7 @@
       z-index: 10;
       position: absolute;
       width: 40%;
-      top: 15%;
+      top: 10%;
       right: 28%;
       transform: translateY(10%);
       opacity: 0; /* 初期状態は非表示 */
@@ -270,7 +270,7 @@ text-shadow:1px 1px 0 #000000, -1px -1px 0 #000000,
     .message2{
       position: absolute;
       width: 70%;
-      top: 290%;
+      top: 320%;
       left: 16%;
     }
     
@@ -343,7 +343,7 @@ text-shadow:1px 1px 0 #000000, -1px -1px 0 #000000,
     }
     .icon1 {
       position: absolute;
-      top: 305%;
+      top: 345%;
       width: 30%;
     }
     .icon1:hover {
@@ -352,7 +352,7 @@ text-shadow:1px 1px 0 #000000, -1px -1px 0 #000000,
 
     .icon2{
       position: absolute;
-      top: 305%;
+      top: 345%;
       width: 30%;
       left: 35%;
     }
@@ -362,7 +362,7 @@ text-shadow:1px 1px 0 #000000, -1px -1px 0 #000000,
 
     .icon3{
       position: absolute;
-      top: 305%;
+      top: 345%;
       width: 30%;
       left: 68%;
     }
@@ -372,7 +372,7 @@ text-shadow:1px 1px 0 #000000, -1px -1px 0 #000000,
 
     .icon4{
       position: absolute;
-      top: 345%;
+      top: 395%;
       width: 30%;
     }
     .icon4:hover {
@@ -381,7 +381,7 @@ text-shadow:1px 1px 0 #000000, -1px -1px 0 #000000,
 
     .icon5{
       position: absolute;
-      top: 345%;
+      top: 395%;
       width: 30%;
       left: 35%;
     }
@@ -391,7 +391,7 @@ text-shadow:1px 1px 0 #000000, -1px -1px 0 #000000,
 
     .icon6{
       position: absolute;
-      top: 345%;
+      top: 395%;
       width: 30%;
       left: 68%;
     }
@@ -401,7 +401,7 @@ text-shadow:1px 1px 0 #000000, -1px -1px 0 #000000,
 
     .message3{
       position: absolute;
-      top: 395%;
+      top: 465%;
       left: 7%;
       font-size: 22px;
     }
